@@ -1,0 +1,17 @@
+---
+title: "FTP_analysis_fn"
+output: html_notebook
+---
+
+```{r Load Libraries}
+# load libraries and data
+library(tidyverse)
+source('/Users/ssp160230/github_directory/FTP_RAnalysis/src/FTP_functions.R')
+ftp_test_data <- read_csv('/Users/ssp160230/github_directory/FTP_RAnalysis/data/FTP_data.csv')
+```
+
+```{r test new functions here}
+ftp_clean <- fclean(ftp_test_data)
+ftp_mean <- fmean(ftp_clean_fn)
+```
+
