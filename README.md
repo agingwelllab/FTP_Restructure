@@ -1,5 +1,5 @@
-# FTP_RAnalysis
-Repo contains code to analyze data for the Future Time Perspective (FTP) measure exported from REDCap
+# FTP_Restructure
+Repo contains code to restructure data for the Future Time Perspective (FTP) measure exported from REDCap
 
 ## Functions
 * fclean(*df*)

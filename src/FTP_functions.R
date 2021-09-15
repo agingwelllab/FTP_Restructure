@@ -1,4 +1,4 @@
-# create function to clean up raw data frame
+# function to clean up raw data frame
 fclean <- function(fraw_df) {
   
   # remove unnecessary column for "complete" form status
@@ -13,7 +13,7 @@ fclean <- function(fraw_df) {
     mutate(ftp_mean = rowMeans(f_rscored[-1]))
 }
 
-# create function to return separate df with record_id and mean scores
+# function to return separate df with record_id and mean scores
 fmean <- function(f_clean) {
   f_mean <- f_clean %>%
     transmute(record_id, ftp_mean)
