@@ -6,7 +6,7 @@ fclean <- function(fraw_df) {
   
   # reverse score q8, q9, q10
   f_rscored <- fwide %>%
-    transform(ftp_8r = 7 - ftp_8r, ftp_9r = 7 - ftp_9r, ftp_10r = 7 - ftp_10r)
+    transform(ftp_8r = 8 - ftp_8r, ftp_9r = 8 - ftp_9r, ftp_10r = 8 - ftp_10r)
   
   # create a column and calculate mean scores for each participant
   f_clean <- f_rscored %>%
