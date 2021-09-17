@@ -1,4 +1,4 @@
-record_id,ftp_1,ftp_2,ftp_3,ftp_4,ftp_5,ftp_6,ftp_7,ftp_8r,ftp_9r,ftp_10r,ftp_complete
+record_id,opp_1,opp_2,opp_3,ext_1,ext_2,ext_3,opp_4,cons_1,cons_2,cons_3,ftp_complete
 test_1,4,7,2,5,4,1,4,2,3,5,2
 test_2,1,2,3,4,5,6,7,6,5,4,2
 test_3,7,6,5,4,3,2,1,2,3,4,2

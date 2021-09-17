@@ -1,4 +1,4 @@
-"record_id","ftp_mean"
-"test_1",4.1
-"test_2",3.7
-"test_3",4.3
+"record_id","cons","ext","opp"
+"test_1",4.67,3.33,4.25
+"test_2",3,5,3.25
+"test_3",5,3,4.75
