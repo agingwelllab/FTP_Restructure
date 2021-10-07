@@ -12,6 +12,7 @@ Repo contains code to restructure data for the Future Time Perspective (FTP) mea
 * fmean(*df*)
   * calculates average score per component for each record_id (3-4 questions per component)
     * perceived future time opportunity (opp), perceived future time extension (ext), and perceived future time constraint (cons)
+    * components obtained from Rohr et al. (2017)
   * input: clean data frame from fclean(*df*)'s output
   * output: data frame with mean scores for each record_id (*ftotal_mean* in functions script)
     * 4 columns: record_id, cons, ext, and opp
